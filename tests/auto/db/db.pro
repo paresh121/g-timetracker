@@ -8,7 +8,7 @@ SOURCES  += tst_db.cpp
 win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../../../src/lib/release/ -ltimetracker
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../../../src/lib/debug/ -ltimetracker
 else:unix: LIBS += -L$$OUT_PWD/../../../src/lib/ -ltimetracker
-
+# new change
 INCLUDEPATH += $$PWD/../../../src/lib
 DEPENDPATH += $$PWD/../../../src/lib
 
