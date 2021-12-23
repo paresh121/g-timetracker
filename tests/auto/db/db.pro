@@ -3,7 +3,7 @@ CONFIG += parallel_test
 TARGET = tst_db
 QT += testlib quick sql
 SOURCES  += tst_db.cpp
-
+# yes a change
 # timetracker lib
 win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../../../src/lib/release/ -ltimetracker
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../../../src/lib/debug/ -ltimetracker
